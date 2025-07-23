@@ -6,20 +6,22 @@ import Footer from './utils/Footer'
 import { Route, Routes } from 'react-router-dom'
 import Header from './utils/Header'
 import Blog from './components/BlogPosts/Blog'
+import BookingOne from './utils/BookineOne.jsx'
 
 export default function App() {
   return (
     <>
-      <Header />
+      <Header /> 
 
       <Routes>
         <Route path="/" element={<Hero />} />
  <Route path="/blogs" element={<Blog />} />
+ <Route path="/EnterYourPhoneNumber" element={<BookingOne/>} />
 
         {/* aur bhi route yahan aa sakte hain */}
       </Routes>
 
-      <Footer />
+      <Footer /> 
     </>
   );
 }

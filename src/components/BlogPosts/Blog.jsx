@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../../utils/Header';
 import Navdeep from "../../assets/images/Navdeep.jpg";
+import Footer from '../../utils/Footer';
 
 
 const Blog = () => {
@@ -67,6 +68,7 @@ const Blog = () => {
 
       </div>
 
+<Footer />
     </>
   );
 };

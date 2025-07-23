@@ -14,7 +14,7 @@ const Footer = () => {
       ></div>
 
       {/* Dark overlay */}
-      <div className="absolute inset-0 bg-black opacity-60 z-0"></div>
+      <div className="absolute inset-0 bg-black opacity-80 z-0"></div>
 
       {/* Content */}
       <div className="relative top-[80px] z-10 text-white px-8 pt-16 " style={{ fontFamily: "Kaushan" }} >

@@ -4,12 +4,13 @@ import heroImageL from '../assets/images/heroImageL.jpg';
 import AdventureBackGround from '../assets/images/AdventureBackGround.jpg'
 import Logo from '../assets/icons/Logo.png'
 import MapMp from "../assets/images/MapMp.png"
+
 import HeritageTrails from './HeritageTrails';
+import Header from '../utils/Header';
 const Hero = () => {
   return (
 
     <>
-    
     <div className="relative w-full h-screen">
       {/* Hero Image */}
       <img 
